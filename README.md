@@ -3,7 +3,7 @@
 ## 1. Project Overview
 
 ### 1.1 Description
-> A synthesizable SystemVerilog physical coding sublayer and digital communication subsystem designed for low-latency, high-bandwidth Die-to-Die (D2D) chiplet interconnects. The project integrates an 8b/10b Physical Coding Sublayer (PCS) with an asynchronous elastic buffer, a 3-tap TX Feed-Forward Equalizer (FFE), a 1-tap speculative Decision Feedback Equalizer (DFE), a 2-Virtual-Channel Network-on-Chip (NoC) router port, and an All-Digital Phase-Locked Loop (ADPLL) digital control core. System workloads and packet burstiness are characterized using gem5 trace-driven injection models, while mixed-signal boundaries are verified using SystemVerilog Real Number Modeling (RNM).
+> A synthesizable SystemVerilog physical coding sublayer and digital communication subsystem designed for low-latency, high-bandwidth Die-to-Die (D2D) chiplet interconnects. The project, for now, integrates an 8b/10b Physical Coding Sublayer (PCS) with an asynchronous elastic buffer, a 3-tap TX Feed-Forward Equalizer (FFE), a 1-tap speculative Decision Feedback Equalizer (DFE), a 2-Virtual-Channel Network-on-Chip (NoC) router port, and an All-Digital Phase-Locked Loop (ADPLL) digital control core. System workloads and packet burstiness are characterized using gem5 trace-driven injection models, while mixed-signal boundaries are verified using SystemVerilog Real Number Modeling (RNM). It shall be expanded further.
 
 ### 1.2 Goals & Objectives
 - Implement an 8b/10b Physical Coding Sublayer (PCS) supporting standard comma alignment (K28.5) and rate-matching ordered sets (K28.0).
